@@ -1,7 +1,14 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center">
+    <a href="https://www.python.org" target="_blank">
+        <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="400" alt="Python Logo">
+    </a>
+</p>
+
 
 <p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+    <a href="https://pypi.org/project/Django/">
+        <img src="https://img.shields.io/pypi/v/Django" alt="Latest Stable Version">
+    </a>
 </p>
 
 ## Sobre o Projeto
@@ -20,7 +27,12 @@ cd banco-preco/
 ```
 
 
-Crie o Arquivo .env
+Inicie o projeto
 ```sh
 streamlit run preco.py
+```
+
+Dependencias necessárias
+```sh
+pip install streamlit requests pandas pillow
 ```
